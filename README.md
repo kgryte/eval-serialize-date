@@ -25,7 +25,7 @@ Serializes a `Date` object for dynamic code evaluation.
 ``` javascript
 var date = new Date();
 
-var str = serialize( new Date() );
+var str = serialize( date );
 // returns 'new Date(<timestamp>)'
 
 var d = eval( str );
